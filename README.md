@@ -21,22 +21,22 @@ This project aims to explore and analyze a Winery dataset to derive meaningful i
 
 ## Dataset
 
-The dataset used in this project is [provide link to dataset source]. It includes [brief description of the dataset, e.g., information about wineries, wine varieties, ratings, etc.].
+The dataset used in this project is from kaggle. It includes information about wineries, wine varieties, ratings, etc.
 
 ## Exploratory Data Analysis (EDA)
 
-The EDA process involves [briefly describe the main steps and analyses performed]. The results of the EDA are documented in [link to EDA notebook or relevant files].
+This EDA provides a foundation for understanding the Winery dataset. Further analysis and insights gained from these visualizations will guide the development of a robust Recommendation System
 
 ## Recommendation System
 
-The Recommendation System is built using [mention the algorithm or approach used, e.g., collaborative filtering, content-based filtering]. The system takes into account [explain the factors considered for recommendations, e.g., user preferences, wine characteristics]. The implementation details can be found in [link to the recommendation system code or relevant files].
+Recommendation systems are primarily using three approaches. In content-based filtering, we do profiling based on what type of content any user is interested in and using the collected information, it recommends items. Another one is collaborative filtering, where we make clusters of similar users and use that information to make recommendations.
 
 ## Dependencies
 
 Make sure you have the following dependencies installed before running the code:
 
 - Python 3.x
-- [List any additional libraries and versions]
+- jupyter
 
 ## Usage
 
@@ -72,8 +72,4 @@ If you would like to contribute to this project, please follow these guidelines:
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
