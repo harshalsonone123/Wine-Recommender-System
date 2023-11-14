@@ -13,7 +13,6 @@ This repository contains code and documentation for performing Exploratory Data 
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
